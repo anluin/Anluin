@@ -1,50 +1,55 @@
-# Hello! 👋
+# 🎉 Welcome to My GitHub Profile! 👋
 
-### Welcome to my _readme.md_ 😅
-
-I'm Christian and I'm a passionate software developer from germany. ✌️
+### Hello, I'm Christian — a dedicated and passionate software developer from Germany. 🇩🇪
 
 ---
 
-### 🤓 A "little" about me ...
+### 📝 Latest Blog Posts 📘
 
-I've always been curious and wanted to understand how the world around me works ...
+🔍 Check out my latest insights and explorations in software development:
 
-When I was around 10, I got my first computer and spent a lot of my free time
-playing computer games, initially just single player or LAN games with friends.
-But eventually I stumbled upon MMOs and had my first experiences with hackers.
-Instead of getting frustrated about not being able to compete against these players, I asked myself "How the hell do they do it?".
+- [Exploring RunC](./blog/posts/2024-05-05-exploring-runc.md) - May 5, 2024 📅
 
-In answering this question, I gained my first experiences with **C++** and **.NET** languages.
+I now try to write regularly about my experiences and insights in software development. 🖊️ <br/>
+👉 [Visit my blog](./blog/index.md) to read all my posts!
 
-_At that time, the only programming achievement I made
-was getting the different code snippets I found on the internet,
-and barely understood, to work together._
+---
 
-However, the resulting Frankenstein applications worked surprisingly well.
-I developed the code that manipulated the game's memory in **C++** and
-used **VB.NET** and Windows Forms to create the GUIs to operate it.
+### About Me 🚀
 
-Eventually, I came across **C#** and the opportunity to manipulate memory directly with it,
-which allowed me to develop applications completely in a single language.
+My journey into the world of technology began at an early age. At 10, I was introduced to my first computer, marking the
+start of my fascination with software and its limitless possibilities. This curiosity wasn't just about playing games;
+it was about understanding and eventually manipulating the digital world around me. 🌐
 
-At some point, I also learned about **Lua** and was fascinated by the fact that I could easily incorporate the language into my applications.
-This resulted in some tools for automating tasks in games -
-I implemented the actual reading and manipulation of the game state in **C#**,
-and made sure that I could access these functions within small **Lua** scripts.
+#### Early Explorations 🔍
 
-At that time, I became aware of SecondLife and was impressed by the fact that you could create your own virtual world.
-It didn't take long for me to learn **LSL** 
-_(an imperative scripting language developed by Linden Lab for controlling objects in the virtual 3D world Second Life)_
-and started messing around with it, as well as making in-game money by creating scripts for others.
+My initial foray into programming began with a desire to understand how online gamers manipulated games. This curiosity
+led me to learn **C++** and **.NET** technologies. My first projects were simple—combining code snippets from the
+internet to alter game mechanics. Although rudimentary, these projects laid the foundation for my understanding of
+software development.
 
-This led me to web development - you can display websites within the game,
-which was something I really wanted to be able to do. This is also where one of my first larger projects emerged, which is still waiting to be completed. 
-Since **LSL** is quite rudimentary and lacks features like OOP, I wanted to develop an IDE & compiler that would allow me to use such features.
-I wanted to do this with **PHP** and **JS**.
-The IDE should run completely in the browser and be compatible with the in-game web browser.
-Since there was no way to create and execute scripts with scripts (something I wanted in order to simply click a button in the IDE to try out a script),
-I got distracted by the idea of somehow realizing it and started developing prototypes for an interpreter in **PHP**
-that sent HTTP commands to a "runtime" script within the game world and executed in-game functions.
+#### Continuous Learning 📚
 
-_To be continued ..._
+Since writing my first program, I've learned every common programming language through thousands of experiments and
+small projects. Each project, even those that ended up in the trash, significantly deepened my understanding of
+programming.
+
+#### Professional Challenges 💼
+
+During my "Ausbildung" (vocational training), I quickly surpassed the knowledge level of my colleagues. However,
+challenging workplace dynamics and management changes led me to manage the IT department with minimal support. This
+experience, while overwhelming, was invaluable. Eventually, I sought new opportunities, moving to a company that
+provided a great work environment until it had to downsize significantly.
+
+#### 9elements and Beyond 🌟
+
+Joining 9elements was a turning point, providing an ideal work environment that made it hard to imagine working
+elsewhere. However, life changes and the shift to remote work during the pandemic led me to explore other opportunities,
+including a role as CTO to build a company and develop software according to my vision. Unfortunately, this role did not
+meet expectations, leaving me underappreciated and overextended.
+
+#### Looking Ahead 🔭
+
+Currently, I am exploring the possibility of becoming self-employed, leveraging my extensive experience and passion for
+creating innovative software solutions. This new chapter is both exciting and daunting, but I am ready for the
+challenge.
