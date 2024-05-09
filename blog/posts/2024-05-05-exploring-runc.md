@@ -164,6 +164,9 @@ We create a bridge and connect it to a virtual ethernet (veth) pair, bridging th
 network.
 
 #### Setup
+> [!NOTE]  
+> The `brctl` utility can be installed via `sudo apt install bridge-utils`
+
 
 ```sh
 sudo brctl addbr runc0 && \
@@ -202,7 +205,7 @@ and JSON manipulation to programmatically update the `config.json` file stored w
 each part does:
 
 ```sh
-cat <<END | sed 's/^[ \t]*//' | sudo deno run -A /dev/stdin > /dev/null
+cat <<END | sed 's/^[ \t]*//' | sudo $(which deno) run -A /dev/stdin > /dev/null
     // Load and parse the existing config.json file
     const config = await Deno.readTextFile("./workspace/bundles/alpine:latest/config.json").then(JSON.parse);
     
@@ -252,7 +255,13 @@ between the container and external networks. This involves adjusting the iptable
 Translation (NAT).
 
 #### Setup
+> [!NOTE]  
+> IPv4 Forwarding must be enabled!
+> Can be checked via `sysctl net.ipv4.ip_forward`.
+> And enabled via `sysctl -w net.ipv4.ip_forward=1`
+> or permanently inside `/etc/sysctl.conf`
 
+Crucial information necessary for users to succeed.
 Here's a detailed breakdown of the iptables configuration:
 
 ```sh
