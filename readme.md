@@ -9,6 +9,7 @@
 🔍 Check out my latest insights and explorations in software development:
 
 - [Exploring RunC](./blog/posts/2024-05-05-exploring-runc.md) - May 5, 2024 📅
+- [Wrapping `deno lsp` to fix annoying behavior](./blog/posts/2024-05-16-wrapping-deno-lsp-to-fix-stupid-behavior.md) - May 16, 2024 📅
 
 I now try to write regularly about my experiences and insights in software development. 🖊️ <br/>
 👉 [Visit my blog](./blog/index.md) to read all my posts!
