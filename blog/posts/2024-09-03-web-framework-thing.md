@@ -1,4 +1,4 @@
-# Crafting Yet Another Web Framework: Because Why Not?
+# Crafting Yet Another Web Framework (1/2)
 
 In the overcrowded arena of web frameworks, with new ones popping up more frequently than cat memes, one might ponder:
 
@@ -428,4 +428,4 @@ if (import.meta.main) {
 }
 ```
 
-In the next post, we will make sure to deliver the other files that esbuild outputs to the client as well!
+In the [next post](./2024-09-05-web-framework-thing.md), we will make sure to deliver the other files that esbuild outputs to the client as well!
